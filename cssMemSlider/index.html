@@ -5,12 +5,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./assets/slider-icon.png" type="image/x-icon">
   <title>CSS Mem Slider</title>
 </head>
 
 <body>
+  <div class="_container">
+    <article class="meme-silder">
+      <input type="radio" id="radio-1" name="picture" checked>
+      <input type="radio" id="radio-2" name="picture">
+      <input type="radio" id="radio-3" name="picture">
+      <input type="radio" id="radio-4" name="picture">
+      <input type="radio" id="radio-5" name="picture">
+      <input type="radio" id="radio-6" name="picture">
 
+      <div class="slider__image-container">
+        <div class="container__img">
+          <img src="./assets/1.jpg" alt="">
+        </div>
+        <div class="container__img">
+          <img src="./assets/2.jpg" alt="">
+        </div>
+        <div class="container__img">
+          <img src="./assets/3.jpg" alt="">
+        </div>
+        <div class="container__img">
+          <img src="./assets/4.jpg" alt="">
+        </div>
+        <div class="container__img">
+          <img src="./assets/5.jpeg" alt="">
+        </div>
+        <div class="container__img">
+          <img src="./assets/6.webp" alt="">
+        </div>
+      </div>
+      <div class="silder__footer">
+        <div class="slider__caption">
+          <p>Some caption</p>
+          <p>Some caption</p>
+          <p>Some caption</p>
+          <p>Some caption</p>
+          <p>Some caption</p>
+          <p>Some caption</p>
+        </div>
+        <div class="slider__controls">
+          <div class="control-wrapper">
+            <label for="radio-1" id="label-1"></label>
+          </div>
+          <div class="control-wrapper">
+            <label for="radio-2"></label>
+          </div>
+          <div class="control-wrapper">
+            <label for="radio-3"></label>
+          </div>
+          <div class="control-wrapper">
+            <label for="radio-4"></label>
+          </div>
+          <div class="control-wrapper">
+            <label for="radio-5"></label>
+          </div>
+          <div class="control-wrapper">
+            <label for="radio-6"></label>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
 </body>
 
 </html>
